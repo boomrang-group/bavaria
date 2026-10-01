@@ -1,0 +1,12 @@
+# Ne pas ignorer le .env car il contient les accès base de données
+.env
+
+# Ignorer les dossiers de dépendances et de configuration locale
+vendor/
+.DS_Store
+Thumbs.db
+
+# Ignorer les logs ou fichiers temporaires de l'IDE
+.idea/
+.vscode/
+*.log
